@@ -24,7 +24,7 @@ void Warlock::forgetSpell(const string &name)
 {
 	book.forgetSpell(name);
 }
-void Warlock::launchSpell(const string &name, const ATarget &ref)
+void Warlock::launchSpell(string name, const ATarget &ref)
 {
 	ATarget *test = 0;
 	if (test == &ref)

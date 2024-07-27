@@ -35,5 +35,5 @@ class Warlock
 
 		void learnSpell(ASpell *ptr);
 		void forgetSpell(const string &name);
-		void launchSpell(const string &name, const ATarget &ref);
+		void launchSpell(string name, const ATarget &ref);
 };

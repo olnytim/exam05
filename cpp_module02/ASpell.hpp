@@ -1,7 +1,15 @@
 #pragma once
 
-#include "Warlock.hpp"
+// #include "Warlock.hpp"
 #include "ATarget.hpp"
+
+#include <iostream>
+#include <map>
+
+using std::string;
+using std::cout;
+using std::endl;
+using std::map;
 
 class ATarget;
 
